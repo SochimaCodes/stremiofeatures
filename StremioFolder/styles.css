@@ -1,0 +1,413 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body{
+    font-family: "Montserrat", "Ojuju", sans-serif;
+}
+.navbar{
+    background-color: #181227;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 120px;
+    position: fixed;
+    padding: 20px 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+}
+.navbar div{
+    float: right;
+    box-sizing: border-box;
+    margin-left: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    margin-left: 50%;
+}
+.navbar a{
+    color: #ffffff;
+    font-size: larger;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: gray;
+}
+.login{
+    border: 2px solid white;
+    border-radius: 25px;
+    padding-top: 5PX;
+    padding-bottom: 5PX;
+    padding-left: 13PX;
+    padding-right: 13PX;
+}
+.login:hover{
+    background-color: white;
+    color: #181227;
+}
+.heading{
+    background-image: url(imgs/header-mask.png);
+    background-size: cover;
+    padding-left: 50px;
+    color: #ffffff;
+    height: 300px;
+    padding-top: 40px;
+    transform: s;
+}
+.heading h1{
+    display: block;
+    font-size: 43.2px;
+    letter-spacing: 1.35px;
+}
+.heading h2{
+    font-size: 16px;
+    letter-spacing: .6px;
+}
+.container{
+    position: relative;
+}
+.watch{
+    height: 500px;
+    background-color: #ffffff;
+    padding-top: 50px;
+    text-align: center;
+}
+.container .images{
+    position: absolute;
+    top: 40%;
+    bottom: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    float: right;
+    margin-left: 75%;
+}
+.watch h1{
+    color: #1155d9;
+    font-size: 33.6px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.image{
+    float: left;
+    margin-left: 20%;
+}
+.texts{
+    padding-left: 20px;
+    float: left;
+    width: 400px;
+    text-align: left;
+    margin-right: 30%;
+}
+.texts input{
+    padding: 16px 32px;
+    background-color: white;
+    border: 3px solid #000;
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 30px;
+}
+.texts input:hover{
+    color: white;
+    background-color: #000;
+    cursor: pointer;
+}
+.tvcont{
+    background-color: #000;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 250px;
+    padding-right: 50px;
+    display: flex;
+}
+.tvtext{
+    width: 700px;
+    text-align: right;
+    margin-top: 90px;
+}
+.rightimg{
+    margin-left: 5%;
+}
+.tvtext img:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+}
+.streamingplat{
+    background-image: linear-gradient(to right, #2D57E1, #5959EC, #775BF4 );
+    padding-left: 250px;
+    overflow: auto;
+    
+    color: white;
+}
+.streamingplat img{
+    float: left;
+    box-sizing: border-box;
+}
+.diverse{
+    float: left;
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-top: 55px;
+}
+.diverse input{
+    padding: 23px 43px;
+    border: none;
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16px;
+    border-radius: 40px;
+    font-weight: 600;
+}
+.diverse input:hover{
+    cursor: pointer;
+    background-color: #000;
+    color: #ffffff;
+}
+.free{
+    padding: 20px 150px;
+}
+.imgcontainer2{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+.freetext{
+    letter-spacing: .5px;
+}
+.freetext input{
+    padding: 20px 40px;
+    background-color: #6dbb00;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 600;
+}
+.freetext input:hover{
+    background-color: #ffffff;
+    color: #000;
+    border: 3px solid #6dbb00;
+    cursor: pointer;
+}
+.Experience{
+    transform: skewY(-4deg);
+    background-color: #181227;
+    padding: 150px 0px;
+    color: white;
+    height: 350px;
+    padding-left: 250px;
+    display: flex;
+}
+.experience2{
+    float: left;
+    box-sizing: border-box;
+    transform: skewY(4deg);
+    font-size: 1.2rem;
+    width: 50%;
+}
+.experience2 img:hover{
+    cursor: pointer;
+    filter: brightness(70%);
+}
+.tv2cont{
+    float: right;
+    box-sizing: border-box;
+    transform: skewY(4deg);
+    width: 30%;
+}
+.tv2cont img{
+    max-width: 180%;
+    overflow: clip;
+    overflow-clip-margin: content box;
+    margin-left: -11%;
+}
+.discovermorecont{
+    align-items: center;
+}
+.discovermore{
+    margin: auto;
+    text-align: center;
+}
+.discovermore h2{
+    font-size: 33.6px;
+    color: #7B5BF5;
+}
+.discovermore h3{
+    font-size: 24px;
+}
+.ratingcont{
+    transform: skewY(-4deg);
+    background-image: linear-gradient(to right, #2D57E1, #5959EC, #775BF4 );
+    height: 300px;
+    padding: 150px;
+    color: #ffffff;
+    padding-right: -30px;
+}
+.purerating1{
+    width: 33.33333%;
+    float: left;
+    box-sizing: border-box;
+    transform: skewY(4deg);
+    display: block;
+}
+.purerating2{
+    width: 33.33333%;
+    float: left;
+    box-sizing: border-box;
+    transform: skewY(4deg);
+    display: block;
+    margin-top: 40px;
+}
+.purerating3{
+    width: 33.33333%;
+    float: right;
+    box-sizing: border-box;
+    transform: skewY(4deg);
+    display: block;
+    margin-top: 40px;
+    margin-right: -55px ;
+}
+.purerating3 input{
+    border-radius: 60px;
+    padding: 20px 30px;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #7B5BF5;
+    
+}
+.purerating3 input:hover{
+    background: none;
+    color: #f2f2f2;
+    border: 3px solid #f2f2f2;
+    cursor: pointer;
+}
+.purerating3 a img:hover{
+    filter: brightness(80%) ;
+}
+.aboutfooter{
+    background-color: #181227;
+    height: 200px;
+    margin-top: -600px;
+}
+.aboutfooter2{
+    background-color: #181227;
+    height: 400px;
+    margin-top: 250px;
+    padding-top: 250px;
+    padding-left: 50px;
+}
+.insidefooterleft{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+}
+.company, .community{
+    float: left;
+    box-sizing: border-box;
+    width: 33.3%;
+}
+.contacts{
+    float: right;
+    box-sizing: border-box;
+    width: 33.3%;
+}
+.grouptitle{
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 35px;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+}
+ul li{
+    list-style: none;
+    line-height: 120%;
+    text-decoration: none;
+    margin: 0px 0px 14px;
+    margin-left: -25px;
+    font-size: 18px;
+}
+li a{
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.655);
+}
+li a:hover{
+    color: white;
+}
+.insidefooterright{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    align-items: right;
+    text-align: right;
+    padding-right: 70px;
+    color: rgba(255, 255, 255, 0.655);
+}
+.insidefooterright i{
+    font-size: 65px;
+    color: rgba(255, 255, 255, 0.655);
+}
+.insidefooterright i:hover{
+    color: white;
+}
+.insidefooterright a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.655);
+}
+.insidefooterright a:hover{
+    cursor: pointer;
+    color: white;
+}
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1000;
+    color: white;
+}
+.copyright{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    padding-top: 20px;
+}
+.getstremio{
+    float: right;
+    box-sizing: border-box;
+    width: 50%;
+    text-align: right;
+    padding-right: 40px;
+}
+.getstremio button{
+    border-radius: 60px;
+    background-color: #6dbb00;
+    color: #ffffff;
+    padding: 20px 30px;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    border: 3px solid #6dbb00;
+}
+.getstremio button:hover{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border: 3px solid #6dbb00;
+}
